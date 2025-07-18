@@ -1,4 +1,4 @@
-Step 1 \& Step 2 – Python API and Reusable UI Table Component
+**Step 1 \& Step 2 – Python API and Reusable UI Table Component**
 
 
 
@@ -14,11 +14,11 @@ A reusable UI component (tableComponent.js and tableStyles.css) to display the d
 
 
 
-▶️ How to Run the Python Backend
+**How to Run the Python Backend**
 
 
 
-Install FastAPI and Uvicorn (if not already installed):
+1. Install FastAPI and Uvicorn (if not already installed):
 
 
 
@@ -26,7 +26,7 @@ pip install fastapi uvicorn
 
 
 
-Run the server:
+2\. Run the server:
 
 
 
@@ -34,7 +34,7 @@ python main.py
 
 
 
-Visit the API in your browser:
+3\. Visit the API in your browser:
 
 
 
@@ -42,11 +42,11 @@ http://localhost:8000/api/data
 
 
 
-How to Use the Reusable Table Component
+**How to Use the Reusable Table Component**
 
 
 
-Include the following in your HTML file:
+1. Include the following in your HTML file:
 
 
 
@@ -56,7 +56,7 @@ Include the following in your HTML file:
 
 
 
-Add a container where the table will be rendered:
+2\. Add a container where the table will be rendered:
 
 
 
@@ -64,7 +64,7 @@ Add a container where the table will be rendered:
 
 
 
-Fetch and render the data:
+3\. Fetch and render the data:
 
 
 
