@@ -1,0 +1,102 @@
+[
+	{
+		"after": "<span style=\"color: #d60000;\">Expresslieferung und Bearbeitun...</span>",
+		"before": "<span style=\"color: #ff0000;\">Expresslieferung und Bearbeitun...</span>",
+		"code": "color-contrast",
+		"description": "The text 'Expresslieferung und Bearbeitun...' does not have enough contrast with its background, making it difficult for some users to read.",
+		"fix": "color: #d60000;",
+		"id": "00001",
+		"url": "https://deindatenretter.de",
+		"wcag_criterion": "1.4.3"
+	},
+	{
+		"after": "<span id=\"tarteaucitronAccept\" onclick=\"tarteaucitron.userInterface.respondAll(true);\" style=\"background:#007700;color:#FFFFFF\">       ✓ Akzeptieren   </span>",
+		"before": "<span id=\"tarteaucitronAccept\" onclick=\"tarteaucitron.userInterface.respondAll(true);\" style=\"background:#00AA00;color:#FFFFFF\">       ✓ Akzeptieren   </span>",
+		"code": "color-contrast",
+		"description": "The button text '✓ Akzeptieren' does not have enough color contrast against its background.",
+		"fix": "background:#007700;color:#FFFFFF;",
+		"id": "00002",
+		"url": "https://deindatenretter.de",
+		"wcag_criterion": "1.4.3"
+	},
+	{
+		"after": "<a href=\"https://deindatenretter.de/wp-content/uploads/2024/12/eb24DIGITAL_DataRescue_IPhone-14-Pro_MockUP_Datenuebertragung1600x2969px_Schattierung.webp\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"eb24DIGITAL_DataRescue_IPhone...\" alt=\"Image of iPhone data rescue\">",
+		"before": "<a href=\"https://deindatenretter.de/wp-content/uploads/2024/12/eb24DIGITAL_DataRescue_IPhone-14-Pro_MockUP_Datenuebertragung1600x2969px_Schattierung.webp\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"eb24DIGITAL_DataRescue_IPhone...",
+		"code": "link-name",
+		"description": "The link to the image does not have a descriptive name, which may cause confusion for users relying on assistive technologies.",
+		"fix": "alt=\"Image of iPhone data rescue\"",
+		"id": "00003",
+		"url": "https://deindatenretter.de",
+		"wcag_criterion": "2.4.4"
+	},
+	{
+		"after": "<a href=\"https://deindatenretter.de/wp-content/uploads/2024/12/eb24DIGITAL_DataRescue_Sicherheits-Qualitaetssiegel_NAS1920x1080px.webp\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"eb24DIGITAL_DataRescue_Sicherheits-Qualitaetssie...\" alt=\"Image of security and quality seal\">",
+		"before": "<a href=\"https://deindatenretter.de/wp-content/uploads/2024/12/eb24DIGITAL_DataRescue_Sicherheits-Qualitaetssiegel_NAS1920x1080px.webp\" data-elementor-open-lightbox=\"yes\" data-elementor-lightbox-title=\"eb24DIGITAL_DataRescue_Sicherheits-Qualitaetssie...",
+		"code": "link-name",
+		"description": "The link to the quality seal image does not have a descriptive name for assistive technology users.",
+		"fix": "alt=\"Image of security and quality seal\"",
+		"id": "00004",
+		"url": "https://deindatenretter.de",
+		"wcag_criterion": "2.4.4"
+	},
+	{
+		"after": "<span style=\"color: #444444;\">HOME</span>",
+		"before": "<span>HOME</span>",
+		"code": "color-contrast",
+		"description": "The navigation item 'HOME' lacks sufficient color contrast with its background.",
+		"fix": "style=\"color: #444444;\"",
+		"id": "00005",
+		"url": "https://deindatenretter.de",
+		"wcag_criterion": "1.4.3"
+	},
+	{
+		"after": "<span style=\"color: #444444;\">KONTAKT</span>",
+		"before": "<span>KONTAKT</span>",
+		"code": "color-contrast",
+		"description": "The navigation item 'KONTAKT' lacks sufficient color contrast with its background.",
+		"fix": "style=\"color: #444444;\"",
+		"id": "00006",
+		"url": "https://deindatenretter.de",
+		"wcag_criterion": "1.4.3"
+	},
+	{
+		"after": "<span style=\"color: #444444;\">SERVICES</span>",
+		"before": "<span>SERVICES</span>",
+		"code": "color-contrast",
+		"description": "The navigation item 'SERVICES' lacks sufficient color contrast with its background.",
+		"fix": "style=\"color: #444444;\"",
+		"id": "00007",
+		"url": "https://deindatenretter.de",
+		"wcag_criterion": "1.4.3"
+	},
+	{
+		"after": "<span style=\"color: #444444;\">eb24DIGITAL</span>",
+		"before": "<span>eb24DIGITAL</span>",
+		"code": "color-contrast",
+		"description": "The navigation item 'eb24DIGITAL' lacks sufficient color contrast with its background.",
+		"fix": "style=\"color: #444444;\"",
+		"id": "00008",
+		"url": "https://deindatenretter.de",
+		"wcag_criterion": "1.4.3"
+	},
+	{
+		"after": "<div class=\"sub-heading\" style=\"color: #333333;\">Wir sind IHR Spezialist für</div>",
+		"before": "<div class=\"sub-heading\">Wir sind IHR Spezialist für</div>",
+		"code": "color-contrast",
+		"description": "The sub-heading 'Wir sind IHR Spezialist für' does not meet the required color contrast ratio.",
+		"fix": "style=\"color: #333333;\"",
+		"id": "00009",
+		"url": "https://deindatenretter.de",
+		"wcag_criterion": "1.4.3"
+	},
+	{
+		"after": "<h2 class=\"h\" style=\"color: #444444;\">\n\t\t\t\t\t\t\t\t\tDATEN<span class=\"wor...</h2>",
+		"before": "<h2 class=\"h\">\n\t\t\t\t\t\t\t\t\tDATEN<span class=\"wor...</h2>",
+		"code": "color-contrast",
+		"description": "The heading 'DATEN' does not meet the necessary contrast requirements for readability.",
+		"fix": "style=\"color: #444444;\"",
+		"id": "00010",
+		"url": "https://deindatenretter.de",
+		"wcag_criterion": "1.4.3"
+	}
+]
