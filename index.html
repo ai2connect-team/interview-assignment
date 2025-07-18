@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API Table Viewer</title>
+    <link rel="stylesheet" href="tableStyles.css">
+</head>
+<body>
+    <h2>Audit Data from API</h2>
+    <div id="table-container"></div>
+
+    <script src="tableComponent.js"></script>
+    <script><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Fix for special characters -->
+    <title>Audit Data from API</title>
+    <link rel="stylesheet" href="tableStyles.css">
+</head>
+<body>
+    <h2>Audit Data from API</h2>
+    <div id="table-container"></div>
+
+    <script src="tableComponent.js"></script>
+    <script>
+        const table = new DataTable("http://localhost:8000/api/data", "table-container");
+        table.render();
+    </script>
+</body>
+</html>
+
+        const table = new DataTable("http://localhost:8000/api/data", "table-container");
+        table.render();
+    </script>
+</body>
+</html>
