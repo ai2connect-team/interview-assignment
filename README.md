@@ -28,16 +28,16 @@ http://localhost:8000/api/data
 ## How to Use the Reusable Table Component
 
 1.	Include the following in your HTML file:
-```bash
+```html
 <link rel="stylesheet" href="tableStyles.css">
 <script src="tableComponent.js"></script>
 ```
 2. Add a container where the table will be rendered:
-```bash
+```html
 <div id="table-container"></div>
 ```
 3. Fetch and render the data:
-```bash
+```html
 <script>
   fetch('http://localhost:8000/api/data')
     .then(response => response.json())
