@@ -1,84 +1,23 @@
-**Step 1 \& Step 2 – Python API and Reusable UI Table Component**
+# Step 3 – Example HTML Integration
 
+## Overview
+This branch contains an example HTML page demonstrating how to use the reusable UI table component with the backend API.
 
+### Included Files
+- `index.html` — A standalone HTML file showing the reusable table component in action.
+- `tableComponent.js` — JavaScript code for rendering the table.
+- `tableStyles.css` — CSS styles for the table.
 
-This branch contains:
+## How to Use
 
-
-
-A FastAPI-based Python API that serves data from mock\_data.json
-
-
-
-A reusable UI component (tableComponent.js and tableStyles.css) to display the data in a table format
-
-
-
-**How to Run the Python Backend**
-
-
-
-1. Install FastAPI and Uvicorn (if not already installed):
-
-
-
-pip install fastapi uvicorn
-
-
-
-2\. Run the server:
-
-
-
-python main.py
-
-
-
-3\. Visit the API in your browser:
-
-
-
+1. Make sure the backend API from Step 1 & 2 is running at: 
 http://localhost:8000/api/data
 
+2. Open the `index.html` file in a modern web browser (e.g., Chrome, Firefox).
 
+3. The page will fetch data from the backend API and display it in a styled table using the reusable UI component.
 
-**How to Use the Reusable Table Component**
-
-
-
-1. Include the following in your HTML file:
-
-
-
-<link rel="stylesheet" href="tableStyles.css">
-
-<script src="tableComponent.js"></script>
-
-
-
-2\. Add a container where the table will be rendered:
-
-
-
-<div id="table-container"></div>
-
-
-
-3\. Fetch and render the data:
-
-
-
-<script>
-
-&nbsp; fetch('http://localhost:8000/api/data')
-
-&nbsp;   .then(response => response.json())
-
-&nbsp;   .then(data => renderTable(data));
-
-</script>
-
-
-
-
-
+## Notes
+- This example demonstrates embedding the reusable UI component in a client website.
+- No additional backend setup is required for this example.
+- To change the data source URL, update the fetch URL inside `index.html`.
